@@ -15,10 +15,7 @@ function sockMerchant(n, ar) {
 
   // Find pairs
   const keys = Object.keys(socks);
-  keys.forEach((sock) => {
-    console.log(Math.floor(socks[sock] / 2));
-    pairs += Math.floor(socks[sock] / 2);
-  });
+  keys.forEach((sock) => pairs += Math.floor(socks[sock] / 2));
 
   return pairs;
 }
