@@ -1,6 +1,6 @@
 // A function that returns the number of sock pairs
 // params: n - number of socks in array
-// paramsL ar - array of socks
+// params: ar - array of socks
 function sockMerchant(n, ar) {
   const socks = {};
   let pairs = 0;
