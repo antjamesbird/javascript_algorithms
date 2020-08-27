@@ -2,7 +2,7 @@
 /**
  * A function that returns the number of valleys that a hiker has gone through
  * @param {Number} n - number of steps taken
- * @param {String} ar - Steps taken. U is up D is Down.. eg UUDDDUUD
+ * @param {String} s - Steps taken. U is up D is Down.. eg UUDDDUUD
  */
 function countingValleys(n, s) {
   let step = 0;
